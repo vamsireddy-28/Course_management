@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Production build outputs
+dist/
+client/dist/
+
+# Environment variables (CRITICAL: Never commit database passwords to GitHub)
+.env
+server/.env
+client/.env
+.env.local
+.env.*.local
+
+# Vercel output
+.vercel/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+.vercel
